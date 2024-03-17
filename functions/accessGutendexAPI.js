@@ -3,7 +3,6 @@ const functions = require('firebase-functions');
 const fetch = require('node-fetch');
 const {Storage} = require('@google-cloud/storage');
 
-console.log("Working")
 const storage = new Storage();
 const bucket = admin.storage().bucket("habit-building-reading-a-bfcfb.appspot.com");
 
